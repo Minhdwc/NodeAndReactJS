@@ -1,0 +1,44 @@
+.nav-header {
+    background: #1b2d3c;
+}
+
+.logo {
+    max-width: 150px;
+    max-height: 200px;
+    margin: 25px 10px;
+}
+
+.right-header {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icon {
+    display: flex;
+    gap: 20px;
+}
+
+.icon a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #cdcdcd;
+}
+
+.icon a:hover {
+    text-decoration: underline;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+}
+
+.form-control {
+    width: 300px;
+    margin-right: 10px;
+}
+
+.btn {
+    height: 38px;
+}

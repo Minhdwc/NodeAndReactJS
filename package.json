@@ -1,0 +1,23 @@
+{
+  "name": "test_fullstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all --parallel start-server start-client",
+    "start-server": "cd server && nodemon --inspect index.js",
+    "start-client": "cd client && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {
+    "react-player": "^2.16.0",
+    "sass": "^1.75.0"
+  }
+}

@@ -1,0 +1,37 @@
+.detail {
+  background: #1d2035;
+  color: #fff;
+}
+
+.btn-xem {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background-color: #e77e0f;
+  transition: 0.6s ease-in-out;
+}
+
+.btn-xem:hover {
+  background-color: #c46806;
+}
+
+.update-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.update-btn:hover {
+  background-color: #0056b3;
+}
+
+/*# sourceMappingURL=Main.css.map */
